@@ -1,0 +1,164 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 37px;
+}
+
+.navbar .logo {
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+}
+
+.navbar .menu ul li {
+    display: inline;
+    margin-right:10%;
+    font-family: "montserrat", sans-serif;
+}
+
+.navbar .menu ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+.main .tulisan {
+    font-family: 'poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.main .tulisan {
+    font-family:'montserrat', 'sans-serif';
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.main .tulisan button {
+    padding: 20px 40px;
+    background-color: orange;
+    color:floralwhite;
+    font-size: 24px;
+    margin-left: 25px ;
+    border: none;
+    border-radius: 30px;
+    font-family: 'poppins', sans-serif;
+}
+
+.main .tulisan button:hover{
+    background-color:black;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 37px;
+}
+
+.main {
+    margin-top: 8rem;
+}
+
+.main .tulisan {
+    margin-left: 40px;
+    margin-top: 70px;
+}
+
+.main .tulisan p {
+    margin-top: 20px;
+}
+
+.main .tulisan img {
+    margin-top: 300px;
+}
+
+.main .tulisan {
+    margin-left: 10%;
+}
+
+.About {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.About .tulisan2 h1 {
+    font-family: 'poppins', sans-serif;
+    margin-top: 20%;
+}
+.bagian4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 37px;
+}
+
+.bagian4 {
+    margin-bottom: 8rem;
+}
+
+.bagian4 .huruf {
+    margin-left: 40px;
+    margin-top: 70px;
+}
+
+.bagian4 {
+    display: flex;
+}
+
+.bagian4 .huruf {
+    width: 40%;
+    height: 800px;
+}
+.bagian4 .eskrim .buletes1 {
+    width: 60%;
+    height: 800px;
+    position: absolute;
+    padding-left: 350px;
+    padding-top: 230px;
+}
+.bagian4 .eskrim .krim {
+    width: 60%;
+    height: 800px;
+    position: absolute;
+    padding-left: 260px;
+    padding-top: 100px;
+}
+.bagian4 .eskrim .buletes2 {
+    width: 60%;
+    height: 800px;
+    position: absolute;
+    padding-left: 110px;
+    padding-top: 620px;
+}
+.bagian4 .huruf h1 {
+    font-family: 'poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+    padding-top: 420px;
+}
+.bagian4 .huruf h3 {
+    font-family: 'montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.bagian4 .huruf button {
+    padding: 20px 40px;
+    background-color: orange;
+    color:floralwhite;
+    font-size: 24px;
+    margin-left: 25px ;
+    border: none;
+    border-radius: 30px;
+    font-family: 'poppins', sans-serif;
+}
+
+.bagian4 .huruf button:hover{
+    background-color:black;
+}
